@@ -12,4 +12,10 @@ public class Even_Odd
 	else
 	   System.out.println("Odd");
     }
+    public static boolean isEvenOdd(int n)
+    {
+	if(n%2==0)
+	   return true;
+	return false;
+    }
 }
